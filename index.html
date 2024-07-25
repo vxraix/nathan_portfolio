@@ -1,0 +1,230 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nathan Wijnaldum</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6692d07e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header" class="header">
+        
+        <div class="container">
+         <nav>
+             <img src="logo.png" class="logo">
+             <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Applicatie & Web Designer</p>
+            <h1>Hallo, ik ben <span>Nathan</span><br>Wijnaldum van Suriname</h1>
+        </div>
+</div>
+ </div>
+<!-- ---------------about--------------- -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about me.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> Hoi! Ik ben Nathan Wijnaldum, een enthousiaste leerling op de middelbare school Natin, waar ik de ICT-richting volg.
+                     Momenteel zit ik in het eerste jaar, in het laatste kwartaal (de 3e periode). ICT is mijn passie.
+                      Ik geniet van het leren over softwareontwikkeling, netwerken en alles wat met technologie te maken heeft. 
+                      Naast mijn studie werk ik aan verschillende projecten om mijn vaardigheden verder te ontwikkelen.
+                      Buiten schooltijd hou ik van het ontdekken van nieuwe programmeertalen en technieken. 
+                      Ook besteed ik graag tijd aan hobby's zoals gamen, sporten, en tijd doorbrengen met vrienden en familie.
+                    Ik hoop dat je mijn website interessant vindt en meer te weten komt over mijn reis in de wereld van ICT!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('ervaring')">Ervaring</p>
+                        <p class="tab-links" onclick="opentab('educatie')">Educatie</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Video Editing</span><br>Video/photogropher</li>
+                        </ul>
+                    </div><div class="tab-contents" id="ervaring">
+                        <ul>
+                            <li><span>2024-heden</span><br>Werken op Natin</li>
+                            <li><span>2023</span><br>Geslaagd Mulo B richting</li>
+                            <li><span>2022</span><br>Bedrijf Wijnaldum (leren omgaan met hardware)</li>
+                        </ul>
+                    </div><div class="tab-contents" id="educatie">
+                        <ul>
+                            <li><span>2021</span><br>Allison Coarse daar heb ik HTML en CSS leren gebruiken</li>
+                            <li><span>2020</span><br>Purple Tutor daar heb  ik leren omgaan met de taal Python</li>
+                            <li><span>2019</span><br>Geslaagd van de lagere school (Zinnia School)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                 
+<!-- ------------services--------------                  -->
+<div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Bij mijn webdesign diensten draait alles om het creëren van aantrekkelijke en functionele websites die perfect aansluiten bij de wensen en behoeften van mijn klanten. 
+                    Ik combineer esthetiek met gebruiksvriendelijkheid om een optimale gebruikerservaring te garanderen. 
+                    Van het ontwerpen van visuele elementen tot het structureren van de website, ik zorg ervoor dat elke website uniek en effectief is</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Mijn UI/UX design diensten richten zich op het verbeteren van de gebruikerservaring door intuïtieve en aantrekkelijke interfaces te creëren. 
+                    Ik analyseer gebruikersgedrag en pas best practices toe om ontwerpen te maken die niet alleen visueel aantrekkelijk zijn, maar ook gemakkelijk te navigeren zijn.
+                     Het doel is om elke interactie soepel en plezierig te maken, waardoor gebruikers tevreden en betrokken blijven.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Mijn video editing diensten bieden professionele en creatieve oplossingen om uw videoprojecten tot leven te brengen. 
+                    Of het nu gaat om het bewerken van een promotievideo, een bedrijfsfilm of een persoonlijk project, ik zorg voor een naadloze montage met oog voor detail. 
+                    Met geavanceerde technieken en een scherp oog voor storytelling creëer ik video's die uw boodschap effectief overbrengen en visueel indrukwekkend zijn.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+     </div>
+</div>
+<!-- ---------------portfolio------------------ -->
+<div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="worklist">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Die app van me laat je in contact blijven met heel wat mensen rond de wereld
+                        Download het via Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Die app van me laat je in contact blijven met heel wat mensen rond de wereld
+                        Download het via Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Die app van me laat je in contact blijven met heel wat mensen rond de wereld
+                        Download het via Playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+</div>
+<!-- --------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> nathanwijnaldum1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +597 8789993</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="CV.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Sumbit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       <p>Copyright © Nathan. Made with <i class="fa-solid fa-heart"></i> Wijnaldum's Portfolio</p> 
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+     </script> 
+     
+     <script>
+
+         var sidemenu = document.getElementById("sidemenu");
+
+         function openmenu(){
+            sidemenu.style.right = "0";
+         }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+         }
+
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBi10rxzGVW_1uvl2IqAxd8RqBXZ1n5fYeXSfIWZk2fQzVumBGYjSIOOQMtr9syeDG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                   msg.innerHTML
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
